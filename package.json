@@ -1,0 +1,23 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "description": "100xdevs Cohort 3 Assignments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwarnabhR/assignments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwarnabhR/assignments/issues"
+  },
+  "homepage": "https://github.com/SwarnabhR/assignments#readme",
+  "devDependencies": {
+    "jest": "^30.0.2"
+  }
+}
