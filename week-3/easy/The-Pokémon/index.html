@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>The Pokémon</h1>
+
+        <form id="pokemon-form">
+            <label for="number">Number of Cards:</label>
+            <input type="number" id="number" name="number" min="1" max="50" required>
+
+            <label for="type">Select Pokémon Type</label>
+            <select name="type" id="type">
+                <option value="">--Choose a type--</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="grass">Grass</option>
+                <option value="electric">Electric</option>
+                <option value="psychic">Psychic</option>
+                <option value="rock">Rock</option>
+                <option value="ground">Ground</option>
+                <option value="poison">Poison</option>
+                <option value="flying">Flying</option>
+                <option value="bug">Bug</option>
+                <option value="normal">Normal</option>
+            </select>
+
+            <button type="submit">Get Pokémon</button>
+        </form>
+        <div id="cards-container" class="cards-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.color-buttons {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: transparent;
+    
+}
+
+.color-buttons button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.red { background: #f44336; }
+.yellow { background: #ffeb3b; color: #000; }
+.black { background: #212121; }
+.purple { background: #9c27b0; }
+.green { background: #4caf50; }
+.blue { background: #2196f3; }
+.default { background: #ff5722; }
